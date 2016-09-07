@@ -19,10 +19,11 @@ public class Coord911 {
 		System.out.println("What is the y-coordinate of the caller?");
 		double y = s.nextDouble();
 		System.out.println(fname + lname + "\nDate: 09/09/2016 \n" + 
-							"age: " + age + "\nNickname: " + prefname +
-							"\nStreet Adress: " + location + "\nCODE\tX	\tY" + 
-							"----\t-\t-\n" + location + "\t" + x + "\t" + y +
-							"\nBy land distance: " + (x + y) + "\nHelicopter Distance"
-							+ (Math.sqrt(x*x + y*y)));
+					"age: " + age + "\nNickname: " + prefname +
+					"\nStreet Adress: " + location + "\nCODE\tX	\tY" + 
+					"----\t-\t-\n" + location + "\t" + x + "\t" + y +
+					"\nBy land distance: " + (x + y) + "\nHelicopter Distance"
+					+ (Math.sqrt(x*x + y*y)));//Yes, I could have done multiple println statements
+					//but i wanted to test if I still remembered how to make it work like this
 	}
 }
